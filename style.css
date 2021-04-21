@@ -1,0 +1,43 @@
+.container{
+    width: 70%;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 30px;
+}
+body{
+    background: url("./img/peli1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.card-img-top{
+    max-height: 292px;
+    object-fit: cover;
+}
+
+fieldset{
+    margin-bottom: 5px;
+}
+#informacion-item{
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+#informacion-item p{
+    margin: 0;
+}
+
+.informacion-anio{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.informacion-info p:nth-last-child(1n+2){
+    font-weight: bold;
+}
+.informacion-info p:first-child{
+    font-style: italic;
+}
+
+
